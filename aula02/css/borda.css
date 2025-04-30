@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0;
+
+}
+
+.texto1, .texto2{
+    text-align: justify;
+    width: 600px;
+    border: 6px solid green;
+    background-color: gray;
+    padding: 20px 60px; /*espaçamento entre a bordar e o texto*/
+}
+
+p{
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+body{
+    font-size: 16px;
+}
+
+.empresa{
+    background-color: aqua;/*inline - não permite mexer na altura e largura, definido pelo texto*/
+}
+
+.area{
+    background-color: blue;
+    color: azure;
+}
+
+.linguagem{
+    background-color: green;/*block - pode ser modificado a altura e lagura*/
+    display: inline-block; 
+    width: 100px; /*permite mudar altura e largura*/
+    height: 100px;
+}
+
+.computador{
+    background-color: orange;
+    display: inline-block;
+    width: 500px; /*permite mudar altura e largura*/
+    height: 100px;
+}
+
+.desktop{
+    background-color: red;
+}
+
+.teste{
+    width: 100px;
+    height: 80px;
+    border: 10px solid blue;
+}

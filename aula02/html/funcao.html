@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Aula de JS</h1>
+    <p>Exemplos</p>
+
+    <script>
+        function msg() {
+            document.write("Aula de função<br>");//<br> pula a linha
+        }
+
+        msg();
+        msg();
+
+        //Função mais antiga, igual o java
+        function media(a, b) {
+            document.write((a + b) / 2);
+        }
+
+        //função anonima
+        const media2 = function (a, b) {
+            return (a + b) / 2;
+        };
+
+        //Arrow Function
+        const media3 = (a, b) => (a + b) / 2;
+
+        media(10, 20);
+
+        document.write("<br>", media2(10, 20));
+
+        document.write("<br>", media3(10, 20));
+
+        
+        //Funcão arrow que retorne o seu nome
+      const exibirNome = () => {
+        //let n = prompt("Digite seu nome: ");
+        return document.write(prompt("Digite seu nome:"));
+      };
+      exibirNome();
+    </script>
+</body>
+
+</html>
