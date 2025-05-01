@@ -1,0 +1,31 @@
+
+body{ /*tudo sobre a pagina*/
+    background-color: #a36858;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#t1{/*quando é id, a chamada é feita com "#" */
+    text-align: center;
+    color: red;
+}
+
+.l1{/*quando for classe, a chamada é feita com o ponto*/
+    color: rgb(0, 250, 0);
+    text-decoration: none;
+}
+
+a:hover{ /*adiciona ação quando passar com o mouse sobre links*/
+    color: red;
+    text-decoration:overline;
+}
+
+ul{
+    list-style-type:disc;
+    font-size: 20px;
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+    padding-left: 300px;
+    
+}

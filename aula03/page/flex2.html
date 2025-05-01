@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: gray;
+            display: flex;
+            height: 50vh;/*vh -> view port (tamanho da tela)*/
+            flex-direction: column-reverse;/*muda a direção do texto*/
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .item {
+            border: 1px solid black;
+            background-color: brown;
+            /* width: 150px;
+            height: 150px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+            <p>elemento1</p>
+        </div>
+        <div class="item">
+            <p>elemento2</p>
+        </div>
+        <div class="item">
+            <p>elemento3</p>
+        </div>
+    </div>
+</body>
+
+</html>
