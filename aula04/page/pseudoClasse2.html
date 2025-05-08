@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classe</title>
+    <style>
+
+        .disciplinas {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .disciplinas li {
+            background-color: aqua;
+            color: blue;
+            border: 2px solid purple;
+        }
+
+        .disciplinas li:first-child {
+            color: green;
+            border: none;
+        }
+
+        .disciplinas li:last-child {
+            color: red;
+            border: none;
+        }
+
+        .disciplinas li:nth-child(odd){
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="disciplinas">
+        <li>Lógica</li>
+        <li>Banco de dados</li>
+        <li>P.O.O.</li>
+        <li>Front-End</li>
+        <li>API</li>
+    </ul>
+
+
+</body>
+
+</html>

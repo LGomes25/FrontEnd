@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CallBack</title>
+</head>
+<body>
+    <script>
+        const saudacao = (nome) => alert(`Olá ${nome}`); //função
+
+        const processamento = (callBack) => {           //função
+            const nome = prompt("Digite o seu nome");
+            callBack(nome);
+        };
+        
+        processamento(saudacao);
+    </script>
+</body>
+</html>

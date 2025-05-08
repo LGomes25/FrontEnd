@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.flex-container {
+    background-color: #cfcfd4;
+    display: flex;
+    /* overflow: scroll; */
+    /* flex-direction:row; */
+    /* flex-wrap: wrap; */
+    /*flex-flow: row wrap; /*condensa flex-direction e flex-wrap*/
+    /*justify-content:flex-start; /*modifica espaçamento entre os itens internos*/
+    height: 200px;
+    /*align-items:start; /*independente do container, mantém as 
+                        caracteristicas do filho, alinhando no container*/
+    /* align-content: flex-start; */
+}
+.flex-container > div {
+    background-color: dodgerblue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align:center;
+    line-height: 75PX;
+    font-size: 30px;
+    /* padding: 20px; */
+    /* height: 20px; */
+    /* align-items: center; */
+    /* border-radius: 50%; */
+}
+/* #b1{
+    background-color: green;
+}
+#b2{
+    background-color: yellow;
+}
+#b3{
+    background-color: red;
+}
+#b4{
+    background-color: blue;
+} */

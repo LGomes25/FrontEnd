@@ -1,0 +1,45 @@
+
+
+main{
+    background-color: blanchedalmond;
+    position: relative;
+}
+div{
+    font-size: 1.5rem; /*Multiplica o valor pelo fator*/
+    padding: 1rem 1.5rem;
+}
+
+.static{
+    background-color: aqua;
+   
+}
+
+.relative{
+    position: relative; /*não interfere em outros elementos, a posição fica reservada, por padrão é static*/
+    top: -60px; /*a medida desloca a partir da sua posição inicial*/
+    left: 100px; /*a medida desloca a partir da sua posição inicial*/
+    width: 50%; /*relaticvo ao pai*/
+    background-color: orange;
+   
+}
+
+.absolute{
+    background-color: blue;
+    top: 0px;
+    left: 50px;
+    position: absolute; /*removido do lugar e utiliza o pai como parâmetro*/
+
+}
+
+.fixed{
+    background-color: red;
+    position: fixed; /*posisiona e mantem fixo independente do que ocorre na pagina*/
+    right: 64px;
+    bottom: 64px;
+}
+
+.sticky{
+    background-color: purple;
+    position: sticky; /*mantem o bloco fixo independente do movimento da tela*/
+    top: 64px;
+}

@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(217, 238, 225);
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+h1 {
+  text-align: center;
+}
+
+a {
+  color: red;
+}
+
+a:hover{
+    color: black;
+}
+div{
+    border: solid green 1px;
+
+}
+ul{
+    border: black solid;
+    margin: 20px;
+    font-size: 20px;
+    padding-left: 200px;
+}
+ol{
+    border: green dotted;
+    margin: 50px;
+    font-size: 18px;
+    padding-left: 100px;
+}
+input{
+    height: 50px;
+    width: 200px;
+    font-size: 45px;
+    font-style: italic;
+    color: blueviolet;
+    background-color: bisque;
+}
+button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50% ;
+    border-color: red;
+    background-color: white;
+}

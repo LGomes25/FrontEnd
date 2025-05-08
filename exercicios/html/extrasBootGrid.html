@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+
+            > .col,
+            > [class*="col-"] {
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
+    </style>
+  </head>
+    <body>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Primeira metade -->
+                <div class="col-6 p-0">
+                    <div class="p-3 border" style="border: 1px solid green;">Parte 1</div>
+                </div>
+        
+                <!-- Segunda metade (vai ser dividida novamente) -->
+                <div class="col-6">
+                    <div class="row">
+                        <!-- Metade da segunda parte -->
+                        <div class="col-6">
+                            <div class="p-3 border" style="border: 1px solid green;">Parte 2.1</div>
+                        </div>
+        
+                        <!-- Segunda metade da segunda parte (vai ser dividida novamente) -->
+                        <div class="col-6">
+                            <div class="row">
+                                <!-- Metade da última divisão -->
+                                <div class="col-6">
+                                    <div class="p-3 border" style="border: 1px solid green;">Parte 2.2.1</div>
+                                </div>
+                                <!-- Outra metade da última divisão -->
+                                <div class="col-6">
+                                    <div class="p-3 border" style="border: 1px solid green;">Parte 2.2.2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
